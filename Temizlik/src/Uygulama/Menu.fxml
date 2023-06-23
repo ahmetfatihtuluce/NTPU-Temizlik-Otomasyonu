@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpane1" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Uygulama.MenuController">
+   <children>
+      <Button fx:id="btn_satis" layoutX="125.0" layoutY="70.0" mnemonicParsing="false" onAction="#btn_satis_click" prefHeight="50.0" prefWidth="150.0" text="Hizmet Satış" />
+      <Button fx:id="btn_hizmetler" layoutX="125.0" layoutY="120.0" mnemonicParsing="false" onAction="#btn_hizmetler_click" prefHeight="50.0" prefWidth="150.0" text="Mevcut Hizmetler" />
+      <Button fx:id="btn_envanter" layoutX="125.0" layoutY="170.0" mnemonicParsing="false" onAction="#btn_envanter_click" prefHeight="50.0" prefWidth="150.0" text="Envanter Bilgisi" />
+      <Button fx:id="btn_gecmis" layoutX="125.0" layoutY="220.0" mnemonicParsing="false" onAction="#btn_gecmis_click" prefHeight="50.0" prefWidth="150.0" text="Geçmiş Girişler" />
+      <Button fx:id="btn_kullanicilar" layoutX="125.0" layoutY="270.0" mnemonicParsing="false" onAction="#btn_kullanicilar_click" prefHeight="50.0" prefWidth="150.0" text="Kullanıcı Bilgileri" />
+      <Button fx:id="btn_cikis" layoutX="125.0" layoutY="320.0" mnemonicParsing="false" onAction="#btn_cikis_click" prefHeight="50.0" prefWidth="150.0" text="Çıkış" />
+      <Label fx:id="lbl_main" layoutX="144.0" layoutY="38.0" prefHeight="20.0" prefWidth="113.0" text="Temizlik Uygulaması" />
+   </children>
+</AnchorPane>
